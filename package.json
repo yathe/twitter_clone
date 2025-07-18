@@ -4,11 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i ./css/input.css -o ./css/output.css"
-
-
-  },
+  "dev": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch",
+  "build": "tailwindcss -i ./public/css/input.css -o ./public/css/output.css"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
